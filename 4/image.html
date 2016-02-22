@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>表格和图片2</title>
+    <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
+    <style>
+        /*覆写bootstrap 的table-striped样式*/
+        .table-striped > tbody > tr:nth-of-type(2n+1) {
+            background-color: red;
+        }
+    </style>
+</head>
+<body style="margin:50px" class="table-responsive">
+<!--图片形状-->
+<img src="../public/image/2.jpg" alt="图片" class="img-rounded"/>
+<img src="../public/image/2.jpg" alt="图片" class="img-circle"/>
+<img src="public/image/2.jpg" alt="图片" class="img-thumbnail"/>
+<!--图片响应式-->
+<img src="../public/image/2.jpg" alt="图片" class="img-thumbnail img-responsive"/>
+<script src="../public/js/jquery2.1.1.min.js"></script>
+<script src="../public/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

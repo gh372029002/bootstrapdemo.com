@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1;maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
+    <title>输入框和导航组件</title>
+    <style>
+        .a {
+            height:  50px;
+            border: 1px solid #cccccc;
+            background-color:#eeeeee;
+        }
+
+    </style>
+</head>
+<body style="margin: 200px">
+
+<div class="input-group">
+    <span class="input-group-addon">@</span>
+    <input class="form-control">
+</div>
+
+<br>
+
+<div class="input-group">
+    <input class="form-control">
+    <span class="input-group-addon">@qq.com</span>
+</div>
+
+<br>
+
+<div class="input-group">
+    <span class="input-group-addon"><input type="radio"></span>
+    <input type="text" class="form-control">
+</div>
+
+<br>
+
+<div class="input-group">
+    <input  class="form-control">
+    <div class="input-group-btn">
+        <button class="btn btn-default">提交</button>
+    </div>
+</div>
+
+<br>
+
+<div class="input-group">
+    <input  class="form-control">
+    <!--按钮式下拉菜单-->
+    <div class="input-group-btn">
+        <button class="cont btn btn-default dropdown-toggle" data-toggle="dropdown">
+            下拉菜单<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-header" href="#" target="_blank">首页</a></li>
+            <li><a class="divider" href="#" target="_blank">咨询</a></li>
+            <li><a class="disabled" href="#" target="_blank" >关于</a></li>
+            <li><a href="#" target="_blank" >网站地图</a></li>
+        </ul>
+    </div>
+</div>
+
+<script src="../public/js/jquery2.1.1.min.js"></script>
+<script src="../public/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

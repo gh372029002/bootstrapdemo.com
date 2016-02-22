@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1;maximum-scale=1,user-scalable=no">
+    <title>删格系统</title>
+    <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
+    <style>
+       .a {
+           height:  50px;
+           border: 1px solid #cccccc;
+           background-color:#eeeeee;
+       }
+    </style>
+</head>
+<body>
+<!--<div class="container-fluid a">-->
+    <!--...-->
+<!--</div>-->
+<div class="container">
+    <!--<div class="row">-->
+        <!--&lt;!&ndash;最多显示12列 根据屏幕分辨率(大小屏幕) 12列放三行(lg-3) 12列放4行(md-4) 12列放6行(sm-6 xs-6) &ndash;&gt;-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+        <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>-->
+    <!--</div>-->
+
+    <div class="row">
+       <!--列偏移-->
+        <div class="col-md-8 a">8</div>
+        <div class="col-md-3 col-md-offset-1 a">3</div>
+    </div>
+    <div class="row">
+       <!--嵌套-->
+        <div class="col-md-9 a" style="padding:0">
+            <div class="col-md-4 a">4</div>
+            <div class="col-md-4 a">4</div>
+            <div class="col-md-4 a">4</div>
+        </div>
+        <div class="col-md-3 a">3</div>
+    </div>
+    <div class="row">
+        <!--排序-->
+        <div class="col-md-9 a col-md-push-3">9</div>
+        <div class="col-md-3 a col-md-pull-9">3</div>
+    </div>
+    <div class="row">
+        <div class="col-md-9 a">9</div>
+        <div class="col-md-3 a">3</div>
+    </div>
+    <div class="row">
+
+        <div class="col-md-4 a">4</div>
+        <div class="col-md-4 a">4</div>
+        <div class="col-md-4 a">4</div>
+
+    </div>
+</div>
+
+<script src="../public/js/jquery2.1.1.min.js"></script>
+<script src="../public/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
